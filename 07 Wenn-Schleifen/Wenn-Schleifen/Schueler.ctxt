@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Schueler
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Schueler.\r\n\ \r\n\ @author\ Emanuel\ Berger\r\n\ @version\ v1\r\n
+comment1.params=newVorname\ newNachname\ newGeschlecht
+comment1.target=Schueler(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Schueler\r\n
+comment2.params=art\ zahl1\ zahl2
+comment2.target=double\ calculate(int,\ double,\ double)
+comment2.text=\r\n\ Calculator\ -\ Simple\ edition\r\n\ \r\n\ @param\ \ art\ \ \ \ 1\ ->\ Plus,\ 2\ ->\ Minus,\ 3\ ->\ Geteilt,\ 4\ ->\ Mal\r\n\ @param\ \ zahl1\ \ \ \ Input\ var1\r\n\ @param\ \ zahl2\ \ \ \ Input\ var2\r\n\ @return\ \ \ \ \ \ \ \ Rechenergebnis\r\n
+comment3.params=
+comment3.target=void\ sageMama()
+comment4.params=
+comment4.target=java.lang.String\ briefanschrift()
+comment5.params=
+comment5.target=void\ kompletteAnrede()
+numComments=6
