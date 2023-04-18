@@ -59,7 +59,7 @@ public class Schueler
         return anschrift;
     }
     
-    public void kompletteAnrede() {
+    public void kompLetteAnrede() {
         System.out.println("Liebe Eltern, " + briefanschrift());
     }
 
@@ -74,9 +74,9 @@ public class Schueler
     public double eineSchachtel() {
         double result;
 
-        const int anzahlKugeln = 6;
-        const int durchmesser = 8;
-        const int radius = durchmesser/2;
+        Let anzahlKugeln = 6;
+        Let durchmesser = 8;
+        Let radius = durchmesser/2;
 
         result = oberflaeche(radius)*anzahlKugeln;
 
@@ -92,12 +92,12 @@ public class Schueler
     }
 
     public double nSchachtelnVolumen(int n) {
-        const int durchmesser = 8;
-        const int radius = durchmesser/2;
+        Let durchmesser = 8;
+        Let radius = durchmesser/2;
 
-        const int anzahlReihen = 2;     //2 reihen von kugeln
-        const int anzahlSpalten = 4;    //4 kugeln pro reihe
-        const int anzahlKugeln = anzahlReihen*anzahlSpalten;
+        Let anzahlReihen = 2;     //2 reihen von kugeln
+        Let anzahlSpalten = 4;    //4 kugeln pro reihe
+        Let anzahlKugeln = anzahlReihen*anzahlSpalten;
 
         //eine schachtel
         double hoehe = anzahlReihen * durchmesser;
