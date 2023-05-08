@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Ampel
+comment0.text=\n\ Stellt\ eine\ einfache\ Ampel\ dar\n\ \n\ @author\ Albert\ Wiedemann\ \n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Ampel()
+comment1.text=\n\ Legt\ die\ ben\u00F6tigten\ Objekte\ an\ und\ richtet\ sie\ ein.\n
+comment2.params=
+comment2.target=void\ RotSetzen()
+comment2.text=\n\ Setzt\ die\ Ampel\ auf\ rot\n
+comment3.params=
+comment3.target=void\ RotGelbSetzen()
+comment3.text=\n\ Setzt\ die\ Ampel\ auf\ rot-gelb\n
+comment4.params=
+comment4.target=void\ Gr\u00FCnSetzen()
+comment4.text=\n\ Setzt\ die\ Ampel\ auf\ gr\u00FCn\n
+comment5.params=
+comment5.target=void\ GelbSetzen()
+comment5.text=\n\ Setzt\ die\ Ampel\ auf\ gelb\n
+comment6.params=
+comment6.target=void\ Weiterschalten()
+comment6.text=\n\ Schaltet\ die\ Ampel\ gem\u00E4\u00DF\ der\ StVO\ weiter\n
+numComments=7
