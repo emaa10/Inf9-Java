@@ -1,4 +1,3 @@
-
 /**
  * Die Turtle folgt einer gegebenen Linie
  * 
@@ -19,5 +18,14 @@ class LinienfolgerTurtle extends Turtle
     }
 
     //Hier die Methode LinieFolgen() ergänzen
-
+    void LinieFolgen() {
+        while(!Berührt("blau")) {
+            while(Berührt("schwarz")) {
+                Gehen(1);
+            } 
+            Drehen(90);
+            Gehen(1);
+        }
+    }
+    
 }
