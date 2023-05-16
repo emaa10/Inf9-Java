@@ -13,8 +13,13 @@ class Parcours
      */
     Parcours()
     {
-        new LinieWaagerecht(0,160,120, 10);
-        //Ab hier die Linien ergänzen
+        new LinieWaagerecht(0, 160, 120, 10);
+        new LinieSenkrecht(120, 160, 100, 10);
+        new LinieWaagerecht(120, 260, 200, 10);
+        new LinieSenkrecht(320, 260, -150, 10);
+        new LinieWaagerecht(320, 110, 200, 10);
+        new LinieSenkrecht(520, 110, 300, 10);
+        new LinieWaagerecht(520, 410, 200, 10);
         
         Rechteck linienende = new Rechteck();
         linienende.FarbeSetzen("blau");
