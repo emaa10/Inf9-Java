@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Parcours
+comment0.text=\n\ Verwaltet\ den\ Gesamtparcours.\n\ \n\ @author\ Franz\ Jetzinger\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Parcours()
+comment1.text=\n\ Baut\ die\ Linien\ und\ das\ Ziel\ auf\n
+numComments=2

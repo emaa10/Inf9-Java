@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MauerHorizontal
+comment0.text=\n\ Eine\ horizontale\ Mauer\n\ \n\ @author\ Klaus\ Reinold\n\ @version\ 1.0\n
+comment1.params=x\ y\ breite
+comment1.target=MauerHorizontal(int,\ int,\ int)
+comment1.text=\n\ Konstruktor\n\ @param\ x\ 0<\=x<\=15\n\ @param\ y\ 0<\=y<\=9\n\ @param\ breite\ x+breite\ <\=15\n
+numComments=2

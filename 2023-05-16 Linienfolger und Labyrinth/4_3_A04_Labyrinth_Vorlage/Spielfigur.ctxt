@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Spielfigur
+comment0.text=\n\ Spielfigur\n\ \n\ @author\ Klaus\ Reinold\ \n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Spielfigur()
+comment1.text=\n\ Legt\ die\ Form\ und\ die\ Startposition\ der\ Spielfigur\ fest\n
+comment2.params=
+comment2.target=void\ NachObenBewegen()
+comment2.text=\n\ Bewegt\ die\ Figur\ bis\ zur\ n\u00E4chsten\ Mauer\ nach\ oben\n
+comment3.params=
+comment3.target=void\ NachUntenBewegen()
+comment3.text=\n\ Bewegt\ die\ Figur\ bis\ zur\ n\u00E4chsten\ Mauer\ nach\ unten\n
+comment4.params=
+comment4.target=void\ NachLinksBewegen()
+comment4.text=\n\ Bewegt\ die\ Figur\ bis\ zur\ n\u00E4chsten\ Mauer\ nach\ links\n
+comment5.params=
+comment5.target=void\ NachRechtsBewegen()
+comment5.text=\n\ Bewegt\ die\ Figur\ bis\ zur\ n\u00E4chsten\ Mauer\ nach\ rechts\n
+comment6.params=taste
+comment6.target=void\ SonderTasteGedr\u00FCckt(int)
+comment6.text=\n\ Wir\ aufgerufen,\ wenn\ eine\ Sondertaste\ gedr\u00FCckt\ wurde\n\ @param\ taste\ Nummer\ der\ Sondertaste\n
+numComments=7

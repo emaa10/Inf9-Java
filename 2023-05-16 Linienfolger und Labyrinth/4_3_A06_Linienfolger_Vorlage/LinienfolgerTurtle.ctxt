@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LinienfolgerTurtle
+comment0.text=\n\ Die\ Turtle\ folgt\ einer\ gegebenen\ Linie\n\ \n\ @author\ Franz\ Jetzinger\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=LinienfolgerTurtle()
+comment1.text=\n\ Legt\ die\ Position\ der\ Turtle\ fest\n
+numComments=2

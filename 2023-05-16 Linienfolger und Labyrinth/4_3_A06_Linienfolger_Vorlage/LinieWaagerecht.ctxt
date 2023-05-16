@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LinieWaagerecht
+comment0.text=\n\ Ertellt\ eine\ waagrechte\ Line.\n\ \n\ @author\ Franz\ Jetzinger\n\ @version\ 1.0\n
+comment1.params=x\ y\ laenge\ breite
+comment1.target=LinieWaagerecht(int,\ int,\ int,\ int)
+comment1.text=\n\ Setzt\ Gr\u00F6\u00DFe\ und\ Position\ der\ Linie,\ negative\ L\u00E4ngen\ werden\ korrigiert\n\ @param\ x\ x-Positon\ der\ Linie\n\ @param\ y\ y-Positon\ der\ Linie\n\ @param\ laenge\ L\u00E4nge\ der\ Linie\n\ @param\ breite\ Breite\ der\ Linie\n
+numComments=2
