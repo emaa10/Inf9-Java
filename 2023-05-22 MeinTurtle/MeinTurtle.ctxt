@@ -1,10 +1,9 @@
 #BlueJ class context
 comment0.target=MeinTurtle
-comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ MeinTurtle.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
-comment1.params=
-comment1.target=MeinTurtle()
-comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ MeinTurtle\r\n
-comment2.params=y
-comment2.target=int\ beispielMethode(int)
-comment2.text=\r\n\ Ein\ Beispiel\ einer\ Methode\ -\ ersetzen\ Sie\ diesen\ Kommentar\ mit\ Ihrem\ eigenen\r\n\ \r\n\ @param\ \ y\ \ \ \ ein\ Beispielparameter\ f\u00FCr\ eine\ Methode\r\n\ @return\ \ \ \ \ \ \ \ die\ Summe\ aus\ x\ und\ y\r\n
+comment0.text=\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ MeinTurtle.\n\ \n\ @author\ (Ihr\ Name)\ \n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
+comment1.params=l\u00E4nge
+comment1.target=void\ Gehen(double)
+comment2.params=
+comment2.target=MeinTurtle()
+comment2.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ MeinTurtle\n
 numComments=3

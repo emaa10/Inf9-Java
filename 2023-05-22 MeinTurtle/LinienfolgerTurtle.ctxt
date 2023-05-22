@@ -4,4 +4,6 @@ comment0.text=\n\ Die\ Turtle\ folgt\ einer\ gegebenen\ Linie\n\ \n\ @author\ Fr
 comment1.params=
 comment1.target=LinienfolgerTurtle()
 comment1.text=\n\ Legt\ die\ Position\ der\ Turtle\ fest\n
-numComments=2
+comment2.params=
+comment2.target=void\ LinieFolgen()
+numComments=3
