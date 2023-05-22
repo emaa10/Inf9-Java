@@ -15,8 +15,13 @@ public class MeinTurtle extends Turtle
      */
     public MeinTurtle()
     {
-        // Instanzvariable initialisieren
-        x = 0;
+        @Override void Gehen(double länge) {
+            super.Gehen(länge);
+            this.Drehen(90);
+            super.Gehen(1);
+            this.Drehen(90);
+            super.Gehen(länge);
+        }
     }
 
     /**
