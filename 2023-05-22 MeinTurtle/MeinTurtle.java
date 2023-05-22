@@ -19,6 +19,8 @@ public class MeinTurtle extends Turtle
         this.Gehen(1);
         this.Drehen(270);
         this.Gehen(länge);  //strich 3
+
+        wegstrecke += länge;
     }
     
     /**
