@@ -11,11 +11,15 @@ public class MeinTurtle extends Turtle
     private int x;
 
     @Override void Gehen(double länge) {
-        super.Gehen(länge);
+        super.Gehen(länge); //strich 1
         this.Drehen(90);
         super.Gehen(1);
         this.Drehen(90);
-        super.Gehen(länge);
+        super.Gehen(länge); //strich 2
+        this.Drehen(270);
+        this.Gehen(1);
+        this.Drehen(270);
+        this.Gehen(länge);  //strich 3
     }
     
     /**
