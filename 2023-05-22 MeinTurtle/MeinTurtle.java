@@ -7,8 +7,7 @@
  */
 public class MeinTurtle extends Turtle
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
-    private int x;
+    double wegstrecke;
 
     @Override void Gehen(double länge) {
         super.Gehen(länge); //strich 1
@@ -27,6 +26,8 @@ public class MeinTurtle extends Turtle
      */
     public MeinTurtle()
     {
+        super();
+        wegstrecke = 0.0;
     }
 
     /**
