@@ -99,4 +99,21 @@ class Monster extends Figur
             Offen(farbe);
         }
     }
+
+    @Override void SonderTasteGedrückt(int taste) {
+        switch(taste) {
+            case 37:
+                WinkelSetzen(180);
+                break;
+            case 38:
+                WinkelSetzen(90);
+                break;
+            case 39:
+                WinkelSetzen(0);
+                break;
+            case 40:
+                WinkelSetzen(270);
+                break;
+        }
+    }
 }
