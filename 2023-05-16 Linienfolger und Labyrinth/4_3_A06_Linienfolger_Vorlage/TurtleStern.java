@@ -23,7 +23,7 @@ public class TurtleStern extends Turtle
             super.Gehen(länge);
             this.Drehen(120);
             super.Gehen(länge);
-            this.Drehen(240);
+            this.Drehen(-60);
         }
     }
 }
