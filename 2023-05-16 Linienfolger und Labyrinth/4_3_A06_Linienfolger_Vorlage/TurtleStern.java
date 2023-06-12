@@ -18,8 +18,8 @@ public class TurtleStern extends Turtle
         x = 0;
     }
 
-    @Override void Gehen(länge) {
-        for(int i=0; i<10; i++) {
+    @Override void Gehen(double länge) {
+        for(int i=0; i<6; i++) {
             super.Gehen(länge);
             this.Drehen(120);
             super.Gehen(länge);
