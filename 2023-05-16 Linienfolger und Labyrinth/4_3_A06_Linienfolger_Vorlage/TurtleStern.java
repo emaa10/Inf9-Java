@@ -18,13 +18,12 @@ public class TurtleStern extends Turtle
         x = 0;
     }
 
-    public void zeichneStern() {
+    @Override void Gehen(länge) {
         for(int i=0; i<10; i++) {
-            Gehen(60);
-            Drehen(120);
-            Gehen(60);
-            Drehen(60);
+            super.Gehen(länge);
+            this.Drehen(120);
+            super.Gehen(länge);
+            this.Drehen(240);
         }
-
     }
 }
