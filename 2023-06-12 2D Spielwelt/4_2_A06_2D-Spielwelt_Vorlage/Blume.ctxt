@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Blume
+comment0.text=\n\ \ Blume,\ die\ darauf\ wartet\ gesammelt\ zu\ werden\n\ \n\ @author\ Peter\ Brichzin\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Blume()
+comment1.text=\n\ Der\ Konstruktor1\ erzeugt\ eine\ Blume\ an\ der\ Pixel-Position\ (225/125).\ \n
+comment2.params=xNeu\ yNeu
+comment2.target=Blume(int,\ int)
+comment2.text=\n\ Der\ Konstruktor2\ erzeugt\ eine\ Blume\ in\ einem\ Spielfeld\ mit\ 10x10\ Zellen.\n\ \n\ @param\ xNeu\ \ x-Position\ der\ Blume\n\ @param\ yNeu\ \ y-Position\ der\ Blume\n\ \n
+numComments=3

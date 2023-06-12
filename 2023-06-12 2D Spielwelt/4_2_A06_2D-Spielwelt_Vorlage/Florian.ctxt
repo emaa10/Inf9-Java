@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Florian
+comment0.text=\n\ Die\ Spielfigur\ der\ Blumenwelt.\n\ \n\ @author\ (Peter\ Brichzin)\ \n\ @version\ (Version\ 1.0)\n
+comment1.params=
+comment1.target=Florian()
+comment1.text=\n\ Legt\ die\ Form\ und\ die\ Startposition\ fest.\n
+comment2.params=
+comment2.target=void\ NachOstenGehen()
+comment2.text=\n\ L\u00E4sst\ Florian\ eine\ Zelle\ nach\ Osten\ gehen.\n
+comment3.params=
+comment3.target=void\ LinksDrehen()
+comment3.text=\n\ Dreht\ sich\ um\ 90\ Grad\ nach\ links\n\ Tipp\:\ Teste\ vorab\ (an\ einem\ Objekt\ der\ Klasse\ Florian)\ \n\ die\ Methoden\ Drehen,\ WinkelGeben,\ WinkelSetzen\ der\ Oberklasse\n
+numComments=4

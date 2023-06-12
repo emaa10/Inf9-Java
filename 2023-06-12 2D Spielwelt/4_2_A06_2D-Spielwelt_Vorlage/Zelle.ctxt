@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Zelle
+comment0.text=\n\ Eine\ Zelle\ des\ Spielfeldes.\n\ \n\ @author\ Albert\ Wiedemann\ \n\ @version\ 1.0\n
+comment1.params=xLinksOben\ yLinksOben\ farbeNeu
+comment1.target=Zelle(int,\ int,\ java.lang.String)
+comment1.text=\n\ Platziert\ eine\ Zelle\n
+numComments=2

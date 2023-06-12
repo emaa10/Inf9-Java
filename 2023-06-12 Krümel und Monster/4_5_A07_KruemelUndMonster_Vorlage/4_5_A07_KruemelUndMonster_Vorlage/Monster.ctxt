@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Monster
+comment0.text=\n\ Verwaltet\ das\ Monster\n\ \n\ @author\ Albert\ Wiedemann\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=void\ GeschlossenGelb()
+comment1.text=\n\ Stellt\ das\ gelb\ gef\u00E4rbte\ Monster\ mit\ geschlossenem\ Mund\ dar.\n
+comment2.params=
+comment2.target=void\ GeschlossenOrange()
+comment2.text=\n\ Stellt\ das\ orange\ gef\u00E4rbte\ Monster\ mit\ geschlossenem\ Mund\ dar.\n
+comment3.params=
+comment3.target=void\ GeschlossenRot()
+comment3.text=\n\ Stellt\ das\ rot\ gef\u00E4rbte\ Monster\ mit\ geschlossenem\ Mund\ dar.\n
+comment4.params=
+comment4.target=void\ GeschlossenGr\u00FCn()
+comment4.text=\n\ Stellt\ das\ gr\u00FCn\ gef\u00E4rbte\ Monster\ mit\ geschlossenem\ Mund\ dar.\n
+comment5.params=farbe
+comment5.target=void\ Offen(java.lang.String)
+comment5.text=\n\ Stellt\ das\ Monster\ in\ der\ angegebenen\ Farbe\ mit\ offenem\ Mund\ dar.\n\ @param\ farbe\ die\ gew\u00FCnschte\ Farbe\n
+comment6.params=farbe
+comment6.target=void\ Schlie\u00DFen(java.lang.String)
+comment6.text=\n\ Stellt\ das\ in\ einer\ der\ Farben\ gelb,\ orange,\ rot\ bzw.\ gr\u00FCn\ mit\ geschlossenem\ Mund\ dar.\n\ @param\ farbe\ die\ gew\u00FCnschte\ Farbe\n
+comment7.params=farbe
+comment7.target=void\ \u00D6ffnen(java.lang.String)
+comment7.text=\n\ Stellt\ das\ in\ einer\ der\ Farben\ gelb,\ orange,\ rot\ bzw.\ gr\u00FCn\ mit\ offenem\ Mund\ dar.\n\ @param\ farbe\ die\ gew\u00FCnschte\ Farbe\n
+numComments=8

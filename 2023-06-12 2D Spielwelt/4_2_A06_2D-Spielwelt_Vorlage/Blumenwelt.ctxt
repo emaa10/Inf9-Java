@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Blumenwelt
+comment0.text=\n\ Legt\ die\ Blumenwelt\ an\ und\ die\ nicht\ beweglichen\ Objekte.\ \n\ \n\ @author\ Peter\ Brichzin\n\ @version\ 12.12.19\n
+comment1.params=
+comment1.target=Blumenwelt()
+comment1.text=\n\ Baut\ das\ Szenario\ auf.\n
+numComments=2
