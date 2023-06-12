@@ -2,12 +2,11 @@
 /**
  * Beschreiben Sie hier die Klasse TurtleStern.
  * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * @author Emanuel Berger 
+ * @version v1.0.0
  */
 public class TurtleStern extends Turtle
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private int x;
 
     /**
@@ -19,15 +18,13 @@ public class TurtleStern extends Turtle
         x = 0;
     }
 
-    /**
-     * Ein Beispiel einer Methode - ersetzen Sie diesen Kommentar mit Ihrem eigenen
-     * 
-     * @param  y    ein Beispielparameter für eine Methode
-     * @return        die Summe aus x und y
-     */
-    public int beispielMethode(int y)
-    {
-        // tragen Sie hier den Code ein
-        return x + y;
+    public void zeichneStern() {
+        for(int i=0; i<10; i++) {
+            Gehen(60);
+            Drehen(120);
+            Gehen(60);
+            Drehen(60);
+        }
+
     }
 }
