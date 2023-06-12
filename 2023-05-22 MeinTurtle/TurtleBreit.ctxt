@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TurtleBreit
+comment0.text=\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ TurtleBreit.\n\ \n\ @author\ (Ihr\ Name)\ \n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
+comment1.params=l\u00E4nge
+comment1.target=void\ Gehen(double)
+comment1.text=\n\ Bewegt\ die\ Turtle\ nach\ vorne.\n\ Die\ gezeichnete\ Linie\ ist\ 3\ Einheiten\ breit.\n\ @param\ l\u00E4nge\ Anzahl\ der\ L\u00E4ngeneinheiten\n
+numComments=2

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MeinTurtle
+comment0.text=\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ MeinTurtle.\n\ \n\ @author\ (Ihr\ Name)\ \n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
+comment1.params=l\u00E4nge
+comment1.target=void\ Gehen(double)
+comment2.params=
+comment2.target=MeinTurtle()
+comment2.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ MeinTurtle\n
+numComments=3
