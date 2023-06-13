@@ -8,7 +8,7 @@
 public class TastaturTurtle extends Turtle
 {
     public int mode = 1;    //1: normal, 2: save angles
-    public double currentAngle = 90;
+    public int currentAngle = 90;
 
     @Override void SonderTasteGedrückt(int taste) {
         if(mode == 1) {
@@ -50,8 +50,8 @@ public class TastaturTurtle extends Turtle
         }
     }
 
-    public int dreheZu(double angle) {
-        double turn = angle - currentAngle;
+    public int dreheZu(int angle) {
+        int turn = angle - currentAngle;
         return turn;
     }
 
