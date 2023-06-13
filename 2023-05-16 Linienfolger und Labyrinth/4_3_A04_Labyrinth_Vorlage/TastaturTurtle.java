@@ -7,5 +7,9 @@
  */
 public class TastaturTurtle extends Turtle
 {
+    @Override void SonderTasteGedrückt(int taste) {
+        System.out.println("Sondertaste: " + taste);
+        Gehen(10);
+    }
 
 }
