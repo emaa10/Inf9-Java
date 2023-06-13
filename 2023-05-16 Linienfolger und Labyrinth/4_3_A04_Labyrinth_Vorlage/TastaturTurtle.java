@@ -23,8 +23,12 @@ public class TastaturTurtle extends Turtle
             case 37:
                 Drehen(-90);
                 break;
+                
         }
     }
 
 
+    @Override void MausGeklickt(int x, int y, int anzahl) {
+        PositionSetzen(x, y);
+    }
 }
