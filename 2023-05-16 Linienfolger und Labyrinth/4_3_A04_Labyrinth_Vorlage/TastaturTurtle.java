@@ -9,18 +9,18 @@ public class TastaturTurtle extends Turtle
 {
     @Override void SonderTasteGedrückt(int taste) {
         System.out.println("Sondertaste: " + taste);
-        Gehen(10);
+        // Gehen(10);
         switch(taste) {
-            case 37:
+            case 38:
                 Gehen(10);
                 break;
-            case 38:
+            case 39:
                 Drehen(90);
                 break;
-            case 39:
+            case 40:
                 Drehen(180);
                 break;
-            case 40:
+            case 37:
                 Drehen(-90);
                 break;
         }
