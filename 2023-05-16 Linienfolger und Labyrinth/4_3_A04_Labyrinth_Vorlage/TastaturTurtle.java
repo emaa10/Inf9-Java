@@ -7,7 +7,7 @@
  */
 public class TastaturTurtle extends Turtle
 {
-    public int mode = 1;    //1: normal, 2: save angles
+    public int mode = 2;    //1: normal, 2: save angles
     public int currentAngle = 90;
 
     @Override void SonderTasteGedrückt(int taste) {
@@ -18,19 +18,21 @@ public class TastaturTurtle extends Turtle
                 case 38:
                     Gehen(10);
                     break;
-                case 39:
+                case 37:
                     Drehen(90);
                     break;
                 case 40:
                     Drehen(180);
                     break;
-                case 37:
+                case 39:
                     Drehen(-90);
                     break;
                     
             }
         }
         else {
+            System.out.println("Sondertaste: " + taste);
+            System.out.println(currentAngle);
             switch(taste) {
                 case 38:    //pfeil hoch
                     Drehen(dreheZu(0));
@@ -52,6 +54,10 @@ public class TastaturTurtle extends Turtle
 
     public int dreheZu(int angle) {
         int turn = angle - currentAngle;
+
+        turn = -turn;
+
+        currentAngle = angle;
         return turn;
     }
 
