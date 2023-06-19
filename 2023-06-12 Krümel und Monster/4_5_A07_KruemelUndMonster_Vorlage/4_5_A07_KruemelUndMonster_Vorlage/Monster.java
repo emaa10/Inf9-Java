@@ -8,6 +8,11 @@
 class Monster extends Figur
 {
 
+
+    public int mode = 2;    //1: normal, 2: save angles
+    public int currentAngle = 90;
+
+
     /**
      * Stellt das gelb gefärbte Monster mit geschlossenem Mund dar.
      */
@@ -101,19 +106,36 @@ class Monster extends Figur
     }
 
     @Override void SonderTasteGedrückt(int taste) {
-        switch(taste) {
-            case 37:
-                WinkelSetzen(180);
-                break;
-            case 38:
-                WinkelSetzen(90);
-                break;
-            case 39:
-                WinkelSetzen(0);
-                break;
-            case 40:
-                WinkelSetzen(270);
-                break;
-        }
+        System.out.println("Sondertaste: " + taste);
+            System.out.println(currentAngle);
+            switch(taste) {
+                case 38:    //pfeil hoch
+                    Drehen(dreheZu(0));
+                    break;
+                case 39:    //pfeil rechts
+                    Drehen(dreheZu(90));
+                    break;
+                case 40:    //pfeil runter
+                    Drehen(dreheZu(180));
+                    break;
+                case 37:    //pfeil links
+                    Drehen(dreheZu(-90));
+                    break;
+                    
+            }
+            Gehen(10);
+    }
+
+    public int dreheZu(int angle) {
+        int turn = angle - currentAngle;
+
+        turn = -turn;
+
+        currentAngle = angle;
+        return turn;
+    }
+
+    @Override void AktionAusführen() {
+        //if()
     }
 }
