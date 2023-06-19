@@ -136,6 +136,21 @@ class Monster extends Figur
     }
 
     @Override void AktionAusführen() {
-        //if()
+        if(WinkelGeben() == 0) {
+            if(XPositionGeben() > 790 || YPositionGeben() < 0) {
+                super.AktionAusführen();
+            }
+        }
+        else if(WinkelGeben() == 90) {
+            if(YPositionGeben() > 30) {
+                super.AktionAusführen();
+            }
+        }
+        else if(WinkelGeben() == 180) {
+            if(XPositionGeben() > 10) {
+                super.AktionAusführen();
+            }
+        else if(WinkelGeben())
+        }
     }
 }
