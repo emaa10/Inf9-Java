@@ -106,25 +106,25 @@ class Monster extends Figur
     }
 
     @Override void SonderTasteGedrückt(int taste) {
-        System.out.println("Sondertaste: " + taste);
-            System.out.println(currentAngle);
-            switch(taste) {
-                case 38:    //pfeil hoch
-                    Drehen(dreheZu(0));
-                    break;
-                case 39:    //pfeil rechts
-                    Drehen(dreheZu(90));
-                    break;
-                case 40:    //pfeil runter
-                    Drehen(dreheZu(180));
-                    break;
-                case 37:    //pfeil links
-                    Drehen(dreheZu(-90));
-                    break;
-                    
-            }
-            AktionAusführen();
-            //Gehen(10);
+        // System.out.println("Sondertaste: " + taste);
+        // System.out.println(currentAngle);
+        switch(taste) {
+            case 38:    //pfeil hoch
+                Drehen(dreheZu(0));
+                break;
+            case 39:    //pfeil rechts
+                Drehen(dreheZu(90));
+                break;
+            case 40:    //pfeil runter
+                Drehen(dreheZu(180));
+                break;
+            case 37:    //pfeil links
+                Drehen(dreheZu(-90));
+                break;
+                
+        }
+        AktionAusführen();
+        //Gehen(10);
     }
 
     public int dreheZu(int angle) {
@@ -137,24 +137,44 @@ class Monster extends Figur
     }
 
     @Override void AktionAusführen() {  //ersetzt Gehen() basically
-        if(WinkelGeben() == 0) {            
-            if(YPositionGeben() > 0) {
+        if(WinkelGeben() == 0) {        //90, rechts
+            if(XPositionGeben() > 800) {
                 super.AktionAusführen();    //tue nichts
+                System.out.println("BLOCKED 1");
+                System.out.println(XPositionGeben());
+                System.out.println(YPositionGeben());
+            } else {
+                Gehen(10);
             }
         }
-        else if(WinkelGeben() == 90) {
-            if(XPositionGeben() < 311) {
+        else if(WinkelGeben() == 90) {  //0, oben
+            if(YPositionGeben() < 0) {
                 super.AktionAusführen();
+                System.out.println("BLOCKED 2");
+                System.out.println(XPositionGeben());
+                System.out.println(YPositionGeben());
+            } else {
+                Gehen(10);
             }
         }
-        else if(WinkelGeben() == 180) {
-            if(YPositionGeben() < 470) {
+        else if(WinkelGeben() == 180) { //270, links
+            if(XPositionGeben() < 0) {
                 super.AktionAusführen();
+                System.out.println("BLOCKED 3");
+                System.out.println(XPositionGeben());
+                System.out.println(YPositionGeben());
+            } else {
+                Gehen(10);
             }
         }
-        else if(WinkelGeben() == 270) {
-            if(XPositionGeben() > 0) {
+        else if(WinkelGeben() == 270) { //180, unten
+            if(YPositionGeben() > 530) {
                 super.AktionAusführen();
+                System.out.println("BLOCKED 4");
+                System.out.println(XPositionGeben());
+                System.out.println(YPositionGeben());
+            } else {
+                Gehen(10);
             }
         }
     }
@@ -162,6 +182,7 @@ class Monster extends Figur
     @Override void MausGeklickt(int x, int y, int anzahl) {
         System.out.println(x);
         System.out.println(y);
+        System.out.println(WinkelGeben());
     }
 
 }
