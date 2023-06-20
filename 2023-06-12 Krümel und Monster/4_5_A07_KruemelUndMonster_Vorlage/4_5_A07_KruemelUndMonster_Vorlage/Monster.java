@@ -106,25 +106,25 @@ class Monster extends Figur
     }
 
     @Override void SonderTasteGedrückt(int taste) {
-        System.out.println("Sondertaste: " + taste);
-            System.out.println(currentAngle);
-            switch(taste) {
-                case 38:    //pfeil hoch
-                    Drehen(dreheZu(0));
-                    break;
-                case 39:    //pfeil rechts
-                    Drehen(dreheZu(90));
-                    break;
-                case 40:    //pfeil runter
-                    Drehen(dreheZu(180));
-                    break;
-                case 37:    //pfeil links
-                    Drehen(dreheZu(-90));
-                    break;
-                    
-            }
-            AktionAusführen();
-            //Gehen(10);
+        // System.out.println("Sondertaste: " + taste);
+        // System.out.println(currentAngle);
+        switch(taste) {
+            case 38:    //pfeil hoch
+                Drehen(dreheZu(0));
+                break;
+            case 39:    //pfeil rechts
+                Drehen(dreheZu(90));
+                break;
+            case 40:    //pfeil runter
+                Drehen(dreheZu(180));
+                break;
+            case 37:    //pfeil links
+                Drehen(dreheZu(-90));
+                break;
+                
+        }
+        AktionAusführen();
+        //Gehen(10);
     }
 
     public int dreheZu(int angle) {
@@ -136,32 +136,31 @@ class Monster extends Figur
         return turn;
     }
 
-    @Override void AktionAusführen() {
-        if(WinkelGeben() == 0) {            
-            if(YPositionGeben() > 0) {
-                super.AktionAusführen();
-            }
-        }
-        else if(WinkelGeben() == 90) {
-            if(XPositionGeben() < 311) {
-                super.AktionAusführen();
-            }
-        }
-        else if(WinkelGeben() == 180) {
-            if(YPositionGeben() < 470) {
-                super.AktionAusführen();
-            }
-        }
-        else if(WinkelGeben() == 270) {
-            if(XPositionGeben() > 0) {
-                super.AktionAusführen();
-            }
+    @Override void AktionAusführen() {  //ersetzt Gehen() basically
+        switch(WinkelGeben()) {
+            case 0: //rechts
+                if(XPositionGeben() > 800) super.AktionAusführen(); //tue nichts
+                else Gehen(10);
+                break;
+            case 90://oben
+                if(YPositionGeben() < 0) super.AktionAusführen();
+                else Gehen(10);
+                break;
+            case 180://links
+               if(XPositionGeben() < 0) super.AktionAusführen();
+               else Gehen(10);
+               break;
+            case 270://unten
+               if(YPositionGeben() > 530) super.AktionAusführen();
+               else Gehen(10);
+               break;
         }
     }
 
     @Override void MausGeklickt(int x, int y, int anzahl) {
         System.out.println(x);
         System.out.println(y);
+        System.out.println(WinkelGeben());
     }
 
 }
