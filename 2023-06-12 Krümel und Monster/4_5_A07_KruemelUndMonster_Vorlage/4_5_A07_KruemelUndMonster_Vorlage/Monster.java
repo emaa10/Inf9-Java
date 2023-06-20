@@ -124,7 +124,7 @@ class Monster extends Figur
                     
             }
             AktionAusführen();
-            Gehen(10);
+            //Gehen(10);
     }
 
     public int dreheZu(int angle) {
