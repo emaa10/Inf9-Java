@@ -123,6 +123,7 @@ class Monster extends Figur
                     break;
                     
             }
+            AktionAusführen();
             Gehen(10);
     }
 
@@ -152,7 +153,7 @@ class Monster extends Figur
             }
         else if(WinkelGeben() == 270) {
             if(XPositionGeben() > 0) {
-                
+
             }
         }
         }

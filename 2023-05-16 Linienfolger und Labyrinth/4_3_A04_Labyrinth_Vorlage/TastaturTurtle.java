@@ -62,6 +62,7 @@ public class TastaturTurtle extends Turtle
     }
 
     @Override void MausGeklickt(int x, int y, int anzahl) {
+        
         PositionSetzen(x, y);
     }
 }
