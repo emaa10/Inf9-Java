@@ -136,23 +136,31 @@ class Monster extends Figur
     }
 
     @Override void AktionAusführen() {
-        if(WinkelGeben() == 0) {
-            if(XPositionGeben() > 790 || YPositionGeben() < 0) {
+        if(WinkelGeben() == 0) {            
+            if(YPositionGeben() > 0) {
                 super.AktionAusführen();
             }
         }
         else if(WinkelGeben() == 90) {
-            if(YPositionGeben() > 30) {
+            if(XPositionGeben() < 311) {
                 super.AktionAusführen();
             }
         }
         else if(WinkelGeben() == 180) {
-            if(XPositionGeben() > 10) {
+            if(YPositionGeben() < 470) {
                 super.AktionAusführen();
             }
         else if(WinkelGeben() == 270) {
-            if(YPositionGeben() )
+            if(XPositionGeben() > 0) {
+                
+            }
         }
         }
     }
+
+    @Override void MausGeklickt(int x, int y, int anzahl) {
+        System.out.println(x);
+        System.out.println(y);
+    }
+
 }
