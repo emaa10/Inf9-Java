@@ -68,6 +68,7 @@ public class Figur
      */
     void AktionAusführen()
     {
+        this.Gehen(50);
     }
     
     /**

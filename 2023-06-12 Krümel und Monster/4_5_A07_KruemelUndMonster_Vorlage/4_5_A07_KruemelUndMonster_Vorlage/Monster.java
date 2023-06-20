@@ -150,7 +150,9 @@ class Monster extends Figur
             if(XPositionGeben() > 10) {
                 super.AktionAusführen();
             }
-        else if(WinkelGeben())
+        else if(WinkelGeben() == 270) {
+            if(YPositionGeben() )
+        }
         }
     }
 }
