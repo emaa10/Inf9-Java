@@ -136,10 +136,10 @@ class Monster extends Figur
         return turn;
     }
 
-    @Override void AktionAusführen() {
+    @Override void AktionAusführen() {  //ersetzt Gehen() basically
         if(WinkelGeben() == 0) {            
             if(YPositionGeben() > 0) {
-                super.AktionAusführen();
+                super.AktionAusführen();    //tue nichts
             }
         }
         else if(WinkelGeben() == 90) {
