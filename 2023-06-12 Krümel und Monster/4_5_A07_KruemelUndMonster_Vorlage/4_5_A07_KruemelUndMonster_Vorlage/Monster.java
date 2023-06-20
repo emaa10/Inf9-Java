@@ -123,7 +123,7 @@ class Monster extends Figur
                 break;
                 
         }
-        AktionAusführen();
+        Gehen(10);
         //Gehen(10);
     }
 
@@ -136,23 +136,23 @@ class Monster extends Figur
         return turn;
     }
 
-    @Override void AktionAusführen() {  //ersetzt Gehen() basically
+    @Override void Gehen(double länge) {  //ersetzt Gehen() basically
         switch(WinkelGeben()) {
             case 0: //rechts
-                if(XPositionGeben() > 800) super.AktionAusführen(); //tue nichts
-                else Gehen(10);
+                if(XPositionGeben() > 800) AktionAusführen(); //tue nichts
+                else super.Gehen(länge);
                 break;
             case 90://oben
-                if(YPositionGeben() < 0) super.AktionAusführen();
-                else Gehen(10);
+                if(YPositionGeben() < 0) AktionAusführen();
+                else super.Gehen(länge);
                 break;
             case 180://links
-               if(XPositionGeben() < 0) super.AktionAusführen();
-               else Gehen(10);
+               if(XPositionGeben() < 0) AktionAusführen();
+               else super.Gehen(länge);
                break;
             case 270://unten
-               if(YPositionGeben() > 530) super.AktionAusführen();
-               else Gehen(10);
+               if(YPositionGeben() > 530) AktionAusführen();
+               else super.Gehen(länge);
                break;
         }
     }
