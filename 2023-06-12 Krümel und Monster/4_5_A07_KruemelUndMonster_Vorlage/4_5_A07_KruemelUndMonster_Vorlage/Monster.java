@@ -137,45 +137,23 @@ class Monster extends Figur
     }
 
     @Override void AktionAusführen() {  //ersetzt Gehen() basically
-        if(WinkelGeben() == 0) {        //90, rechts
-            if(XPositionGeben() > 800) {
-                super.AktionAusführen();    //tue nichts
-                System.out.println("BLOCKED 1");
-                System.out.println(XPositionGeben());
-                System.out.println(YPositionGeben());
-            } else {
-                Gehen(10);
-            }
-        }
-        else if(WinkelGeben() == 90) {  //0, oben
-            if(YPositionGeben() < 0) {
-                super.AktionAusführen();
-                System.out.println("BLOCKED 2");
-                System.out.println(XPositionGeben());
-                System.out.println(YPositionGeben());
-            } else {
-                Gehen(10);
-            }
-        }
-        else if(WinkelGeben() == 180) { //270, links
-            if(XPositionGeben() < 0) {
-                super.AktionAusführen();
-                System.out.println("BLOCKED 3");
-                System.out.println(XPositionGeben());
-                System.out.println(YPositionGeben());
-            } else {
-                Gehen(10);
-            }
-        }
-        else if(WinkelGeben() == 270) { //180, unten
-            if(YPositionGeben() > 530) {
-                super.AktionAusführen();
-                System.out.println("BLOCKED 4");
-                System.out.println(XPositionGeben());
-                System.out.println(YPositionGeben());
-            } else {
-                Gehen(10);
-            }
+        switch(WinkelGeben()) {
+            case 0: //rechts
+                if(XPositionGeben() > 800) super.AktionAusführen(); //tue nichts
+                else Gehen(10);
+                break;
+            case 90://oben
+                if(YPositionGeben() < 0) super.AktionAusführen();
+                else Gehen(10);
+                break;
+            case 180://links
+               if(XPositionGeben() < 0) super.AktionAusführen();
+               else Gehen(10);
+               break;
+            case 270://unten
+               if(YPositionGeben() > 530) super.AktionAusführen();
+               else Gehen(10);
+               break;
         }
     }
 
