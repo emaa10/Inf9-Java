@@ -81,7 +81,31 @@ public class Schueler
             case 4: System.out.println(note + ": ausreichend"); break;
             case 5: System.out.println(note + ": mangelhaft"); break;
             case 6: System.out.println(note + ": ungenügend"); break;
-            default: System.out.println("Keine gültige Note!");
+            default: System.out.println("Keine gültige Note!"); break;
+        }
+    }
+
+    public void noteAlsBezeichnung2(int note) {
+        if(note == 1) {
+            System.out.println(note + ": sehr gut");
+        }
+        else if(note == 2) {
+            System.out.println(note + ": gut");
+        }
+        else if(note == 3) {
+            System.out.println(note + ": befriedigend");
+        }
+        else if(note == 4) {
+            System.out.println(note + ": ausreichend");
+        }
+        else if(note == 5) {
+            System.out.println(note + ": mangelhaft");
+        }
+        else if(note == 6) {
+            System.out.println(note + ": ungenügend");
+        }
+        else {
+            System.out.println("Keine gültige Note!");
         }
     }
 
