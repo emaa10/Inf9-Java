@@ -115,6 +115,7 @@ public class Schueler
             case 'o': System.out.println("Osten"); break;
             case 's': System.out.println("Süden"); break;
             case 'w': System.out.println("Westen"); break;
+            default: System.out.println("Keine gültige Himmelsrichtung!"); break;
         }
     }
 
