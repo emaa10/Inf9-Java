@@ -23,9 +23,9 @@ public class Schueler
 
     public void istVolljaehrig() {
         if (alter >= 18) {
-            System.out.println("Ist volljährig"); 
+            System.out.println("Ist volljï¿½hrig"); 
         } else {
-            System.out.println("Ist nicht volljährig");            
+            System.out.println("Ist nicht volljï¿½hrig");            
         }
     }
 
@@ -70,6 +70,17 @@ public class Schueler
         System.out.println("Oder:");
         for (int i = 0; i <= 10; i = i + 1) {
             System.out.println(i*2);
+        }
+    }
+
+    public void noteAlsBezeichnung(int note) {
+        switch(note) {
+            case 1: System.out.println(note + ": sehr gut"); break;
+            case 2: System.out.println(note + ": gut"); break;
+            case 3: System.out.println(note + ": befriedigend"); break;
+            case 4: System.out.println(note + ": ausreichend"); break;
+            case 5: System.out.println(note + ": mangelhaft"); break;
+            case 6: System.out.println(note + ": ungenÃ¼gend"); break;
         }
     }
 
