@@ -109,5 +109,13 @@ public class Schueler
         }
     }
 
+    public void gibHimmelsrichtungen(char richtung) {
+        switch(richtung) {
+            case 'n': System.out.println("Norden"); break;
+            case 'o': System.out.println("Osten"); break;
+            case 's': System.out.println("Süden"); break;
+            case 'w': System.out.println("Westen"); break;
+        }
+    }
 
 }
