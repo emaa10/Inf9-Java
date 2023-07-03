@@ -118,5 +118,4 @@ public class Schueler
             default: System.out.println("Keine gültige Himmelsrichtung!"); break;
         }
     }
-
 }
