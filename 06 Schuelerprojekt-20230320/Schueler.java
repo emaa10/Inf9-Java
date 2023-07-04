@@ -163,7 +163,32 @@ public class Schueler
                 System.out.println(" - ");
                 break;
             case 6:
-                
+                System.out.println("|  ");
+                System.out.println(" - ");
+                System.out.println("| |");
+                System.out.println(" - ");
+                break;
+            case 7:
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println("  |");
+                System.out.println("  |");
+                break;
+            case 8:
+                System.out.println(" - ");
+                System.out.println("| |");
+                System.out.println(" - ");
+                System.out.println("| |");
+                System.out.println(" - ");
+                break;
+            case 9:
+                System.out.println(" - ");
+                System.out.println("| |");
+                System.out.println(" - ");
+                System.out.println("  |");
+                break;
+            default:
+                System.out.println("Keine gültige Zahl!");
         }
     }
 }
