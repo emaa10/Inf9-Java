@@ -118,4 +118,52 @@ public class Schueler
             default: System.out.println("Keine gültige Himmelsrichtung!"); break;
         }
     }
+
+    public void segment(int zahl) {
+        switch(zahl) {
+            case 0:
+                System.out.println(" - ");
+                System.out.println("| |");
+                System.out.println();
+                System.out.println("| |");
+                System.out.println(" - ");
+                break;
+            case 1:
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println();
+                System.out.println("  |");
+                break;
+            case 2:
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println(" - ");
+                System.out.println("|  ");
+                System.out.println(" - ");
+                break;
+            case 3:
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println(" - ");
+                break;
+            case 4:
+                System.out.println("   ");
+                System.out.println("| |");
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println("   ");
+                break;
+            case 5:
+                System.out.println(" - ");
+                System.out.println("|  ");
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println(" - ");
+                break;
+            case 6:
+                
+        }
+    }
 }
