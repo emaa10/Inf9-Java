@@ -171,7 +171,7 @@ public class Schueler
             case 7:
                 System.out.println(" - ");
                 System.out.println("  |");
-                System.out.println("  |");
+                System.out.println("  ");
                 System.out.println("  |");
                 break;
             case 8:
@@ -186,6 +186,7 @@ public class Schueler
                 System.out.println("| |");
                 System.out.println(" - ");
                 System.out.println("  |");
+                System.out.println(" - ");
                 break;
             default:
                 System.out.println("Keine gültige Zahl!");
