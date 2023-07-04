@@ -191,5 +191,14 @@ public class Schueler
             default:
                 System.out.println("Keine gültige Zahl!");
         }
+
+    }
+    
+    public void gibUhrzeit(int zahl1, int zahl2, int zahl3, int zahl4) {
+        segment(zahl1);
+        segment(zahl2);
+        System.out.println(":");
+        segment(zahl3);
+        segment(zahl4);
     }
 }
