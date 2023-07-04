@@ -195,10 +195,15 @@ public class Schueler
     }
     
     public void gibUhrzeit(int zahl1, int zahl2, int zahl3, int zahl4) {
-        segment(zahl1);
-        segment(zahl2);
-        System.out.println(":");
-        segment(zahl3);
-        segment(zahl4);
+        if (zahl1 >= 0 && zahl1 <= 2 && zahl2 >= 0 && zahl2 <= 9 && zahl3 >= 0 && zahl3 <= 5 && zahl4 >= 0 && zahl4 <= 9) {
+            segment(zahl1);
+            segment(zahl2);
+            System.out.println(":");
+            segment(zahl3);
+            segment(zahl4);
+        } else {
+            System.out.println("Ungültige Uhrzeit.");
+        }
     }
+
 }
