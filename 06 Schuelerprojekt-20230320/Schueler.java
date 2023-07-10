@@ -23,9 +23,9 @@ public class Schueler
 
     public void istVolljaehrig() {
         if (alter >= 18) {
-            System.out.println("Ist vollj�hrig"); 
+            System.out.println("Ist vollj�hrig"); 
         } else {
-            System.out.println("Ist nicht vollj�hrig");            
+            System.out.println("Ist nicht vollj�hrig");            
         }
     }
 
@@ -73,5 +73,137 @@ public class Schueler
         }
     }
 
+    public void noteAlsBezeichnung(int note) {
+        switch(note) {
+            case 1: System.out.println(note + ": sehr gut"); break;
+            case 2: System.out.println(note + ": gut"); break;
+            case 3: System.out.println(note + ": befriedigend"); break;
+            case 4: System.out.println(note + ": ausreichend"); break;
+            case 5: System.out.println(note + ": mangelhaft"); break;
+            case 6: System.out.println(note + ": ungenügend"); break;
+            default: System.out.println("Keine gültige Note!"); break;
+        }
+    }
+
+    public void noteAlsBezeichnung2(int note) {
+        if(note == 1) {
+            System.out.println(note + ": sehr gut");
+        }
+        else if(note == 2) {
+            System.out.println(note + ": gut");
+        }
+        else if(note == 3) {
+            System.out.println(note + ": befriedigend");
+        }
+        else if(note == 4) {
+            System.out.println(note + ": ausreichend");
+        }
+        else if(note == 5) {
+            System.out.println(note + ": mangelhaft");
+        }
+        else if(note == 6) {
+            System.out.println(note + ": ungenügend");
+        }
+        else {
+            System.out.println("Keine gültige Note!");
+        }
+    }
+
+    public void gibHimmelsrichtungen(char richtung) {
+        switch(richtung) {
+            case 'n': System.out.println("Norden"); break;
+            case 'o': System.out.println("Osten"); break;
+            case 's': System.out.println("Süden"); break;
+            case 'w': System.out.println("Westen"); break;
+            default: System.out.println("Keine gültige Himmelsrichtung!"); break;
+        }
+    }
+
+    public void segment(int zahl) {
+        switch(zahl) {
+            case 0:
+                System.out.println(" - ");
+                System.out.println("| |");
+                System.out.println();
+                System.out.println("| |");
+                System.out.println(" - ");
+                break;
+            case 1:
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println();
+                System.out.println("  |");
+                break;
+            case 2:
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println(" - ");
+                System.out.println("|  ");
+                System.out.println(" - ");
+                break;
+            case 3:
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println(" - ");
+                break;
+            case 4:
+                System.out.println("   ");
+                System.out.println("| |");
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println("   ");
+                break;
+            case 5:
+                System.out.println(" - ");
+                System.out.println("|  ");
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println(" - ");
+                break;
+            case 6:
+                System.out.println("|  ");
+                System.out.println(" - ");
+                System.out.println("| |");
+                System.out.println(" - ");
+                break;
+            case 7:
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println("  ");
+                System.out.println("  |");
+                break;
+            case 8:
+                System.out.println(" - ");
+                System.out.println("| |");
+                System.out.println(" - ");
+                System.out.println("| |");
+                System.out.println(" - ");
+                break;
+            case 9:
+                System.out.println(" - ");
+                System.out.println("| |");
+                System.out.println(" - ");
+                System.out.println("  |");
+                System.out.println(" - ");
+                break;
+            default:
+                System.out.println("Keine gültige Zahl!");
+        }
+
+    }
+    
+    public void gibUhrzeit(int zahl1, int zahl2, int zahl3, int zahl4) {
+        if (zahl1 >= 0 && zahl1 <= 2 && zahl2 >= 0 && zahl2 <= 9 && zahl3 >= 0 && zahl3 <= 5 && zahl4 >= 0 && zahl4 <= 9) {
+            segment(zahl1);
+            segment(zahl2);
+            System.out.println(":");
+            segment(zahl3);
+            segment(zahl4);
+        } else {
+            System.out.println("Ungültige Uhrzeit.");
+        }
+    }
 
 }
